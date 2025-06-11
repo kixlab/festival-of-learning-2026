@@ -1,6 +1,7 @@
 export interface Conference {
   id: string;
   name: string;
+  abbreviation: string;
   description: string;
   website: string;
   dates: {
@@ -15,6 +16,7 @@ export const conferences: Conference[] = [
   {
     id: 'las',
     name: 'Learning at Scale 2026',
+    abbreviation: 'L@S 2026',
     description: 'A premier conference focusing on the latest developments in educational technology and its applications in teaching and learning.',
     website: '#',
     dates: {
@@ -27,6 +29,7 @@ export const conferences: Conference[] = [
   {
     id: 'aied',
     name: 'International Conference on Artificial Intelligence in Education 2026',
+    abbreviation: 'AIED 2026',
     description: 'A leading conference exploring the intersection of artificial intelligence and education.',
     website: '#',
     dates: {
@@ -39,6 +42,7 @@ export const conferences: Conference[] = [
   {
     id: 'edm',
     name: 'Educational Data Mining 2026',
+    abbreviation: 'EDM 2026',
     description: 'A major conference on data mining and analytics in educational settings.',
     website: '#',
     dates: {
@@ -51,6 +55,7 @@ export const conferences: Conference[] = [
   {
     id: 'isls',
     name: 'International Society of the Learning Sciences Annual Meeting 2026',
+    abbreviation: 'ISLS 2026',
     description: 'A premier conference focusing on the latest developments in educational technology and its applications in teaching and learning.',
     website: '#',
     dates: {

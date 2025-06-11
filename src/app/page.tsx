@@ -2,9 +2,9 @@ import styles from "./page.module.css";
 import { conferences } from "@/data/conferences";
 import { organizationInfo } from "@/data/organization";
 import { venueInfo } from "@/data/venue";
-import SchoolIcon from '@mui/icons-material/School';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
+import Image from 'next/image';
 
 export default function Home() {
   const generalChairs = organizationInfo.sections[0].members;
@@ -20,10 +20,13 @@ export default function Home() {
             <p className={styles.date}>June 29 - July 3, 2026</p>
           </div>
           <div className={styles.heroBackground}>
-            <img
+            <Image
               src="/festival-of-learning-2026/images/seoul/seoul_4.jpg"
               alt="Seoul cityscape"
               className={styles.heroImage}
+              fill
+              priority
+              style={{ objectFit: 'cover' }}
             />
           </div>
         </section>
@@ -74,22 +77,22 @@ export default function Home() {
                   transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                   cursor: 'pointer'
                 }}>
-                  <div style={{ 
-                    backgroundColor: 'var(--primary-light)', 
-                    padding: '1rem',
-                    borderRadius: '50%',
-                    marginBottom: '1rem'
-                  }}>
-                    <SchoolIcon style={{ fontSize: '2rem', color: 'white' }} />
-                  </div>
                   <h3 className={styles.cardTitle} style={{ 
                     fontSize: '1.25rem',
-                    marginBottom: '0.75rem',
+                    marginBottom: '0.5rem',
                     color: 'var(--primary)',
                     lineHeight: '1.4'
                   }}>
                     {conference.name}
                   </h3>
+                  <p style={{
+                    fontSize: '1.1rem',
+                    fontWeight: '600',
+                    color: 'var(--text-secondary)',
+                    marginBottom: '0.75rem'
+                  }}>
+                    {conference.abbreviation}
+                  </p>
                   <p className={styles.highlight} style={{
                     fontSize: '1rem',
                     color: 'var(--text-secondary)'
@@ -117,10 +120,11 @@ export default function Home() {
                     borderRadius: '50%',
                     overflow: 'hidden'
                   }}>
-                    <img
+                    <Image
                       src={chair.image.src}
                       alt={chair.image.alt}
-                      className={styles.chairImage}
+                      fill
+                      style={{ objectFit: 'cover' }}
                     />
                   </div>
                   <h3 className={styles.cardTitle}>{chair.name}</h3>
