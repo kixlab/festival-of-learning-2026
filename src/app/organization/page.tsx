@@ -8,7 +8,7 @@ export default function Organization() {
       <div className={styles.container}>
         <h1 className={styles.title}>Organization</h1>
         <p className={styles.subtitle}>
-          Meet the dedicated team behind the Festival of Learning 2026
+          
         </p>
 
         {organizationInfo.sections.map((section, index) => (
