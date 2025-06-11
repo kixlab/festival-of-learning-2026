@@ -45,7 +45,7 @@ export default function Venue() {
               <div className={styles.flex}>
                 <div className={styles.itemsCenter}>
                   <Image
-                    src="/festival-of-learning-2026/images/venue/coex.jpg"
+                    src="images/venue/coex.jpg"
                     alt="COEX Convention & Exhibition Center"
                     width={500}
                     height={281}
