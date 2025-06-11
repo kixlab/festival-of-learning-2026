@@ -22,7 +22,9 @@ export default function Organization() {
                       src={member.image.src}
                       alt={member.image.alt}
                       fill
+                      sizes="150px"
                       style={{ objectFit: 'cover' }}
+                      priority={index === 0 && memberIndex === 0}
                     />
                   </div>
                   <h3 className={styles.memberName}>{member.name}</h3>

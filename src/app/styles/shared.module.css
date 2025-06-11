@@ -162,12 +162,13 @@
 }
 
 .imageContainer {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto 1.5rem;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid var(--primary);
+  position: relative;
 }
 
 .memberImage {
@@ -177,21 +178,21 @@
 }
 
 .memberName {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: var(--primary);
 }
 
 .memberRole {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--secondary);
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
 
 .memberInstitution {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   margin-bottom: 1rem;
 }
