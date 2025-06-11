@@ -1,5 +1,4 @@
 import styles from '../styles/shared.module.css';
-import Image from 'next/image';
 import MapIcon from '@mui/icons-material/Map';
 import LanguageIcon from '@mui/icons-material/Language';
 
@@ -44,13 +43,11 @@ export default function Venue() {
               </div>
               <div className={styles.flex}>
                 <div className={styles.itemsCenter}>
-                  <Image
-                    src="images/venue/coex.jpg"
+                  <img
+                    src="/festival-of-learning-2026/images/venue/coex.jpg"
                     alt="COEX Convention & Exhibition Center"
                     width={500}
                     height={281}
-                    quality={75}
-                    priority
                     className={styles.venueImage}
                   />
                 </div>
