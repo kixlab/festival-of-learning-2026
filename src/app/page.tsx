@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import styles from "./styles/shared.module.css";
 import { conferences } from "@/data/conferences";
 import { organizationInfo } from "@/data/organization";
 import { venueInfo } from "@/data/venue";
@@ -77,18 +77,13 @@ export default function Home() {
                   transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                   cursor: 'pointer'
                 }}>
-                  <h3 className={styles.cardTitle} style={{ 
-                    fontSize: '1.25rem',
-                    marginBottom: '0.5rem',
-                    color: 'var(--primary)',
-                    lineHeight: '1.4'
-                  }}>
+                  <h3 className={styles.cardTitle}>
                     {conference.name}
                   </h3>
                   <p style={{
                     fontSize: '1.1rem',
                     fontWeight: '600',
-                    color: 'var(--text-secondary)',
+                    color: 'var(--secondary)',
                     marginBottom: '0.75rem'
                   }}>
                     {conference.abbreviation}
