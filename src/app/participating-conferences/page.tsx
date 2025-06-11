@@ -11,11 +11,11 @@ export default function ParticipatingConferences() {
       <div className={styles.container}>
         <h1 className={styles.title}>Participating Conferences</h1>
         <p className={styles.subtitle} style={{ textAlign: 'center', marginBottom: '3rem' }}>
-          Join us for three premier conferences in educational technology and learning sciences
+          Join us for four premier conferences in educational technology and learning sciences
         </p>
 
         <section className={styles.section}>
-          <div className={`${styles.grid} ${styles.gridCols3}`}>
+          <div className={`${styles.grid} ${styles.gridCols2}`}>
             {conferences.map((conference) => (
               <div key={conference.id} className={styles.card} style={{ height: '100%' }}>
                 <div className={styles.iconContainer} style={{ backgroundColor: 'var(--primary-light)', marginBottom: '1.5rem' }}>
