@@ -7,6 +7,7 @@ export interface VenueInfo {
     title: string;
     venue: string;
     location: string;
+    image: string;
   };
 }
 
@@ -17,7 +18,8 @@ export const venueInfo: VenueInfo = {
   },
   where: {
     title: "Where",
-    venue:"COEX",
-    location: "Seoul, Korea"
+    venue: "COEX",
+    location: "Seoul, Korea",
+    image: "/festival-of-learning-2026/images/venue/coex.jpg"
   }
 }; 
