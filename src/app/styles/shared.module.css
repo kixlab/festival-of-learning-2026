@@ -95,6 +95,13 @@
   margin-bottom: 1rem;
 }
 
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--secondary);
+  margin: 1rem 0;
+}
+
 .subtitle {
   font-size: 1.1rem;
   color: var(--text-secondary);
