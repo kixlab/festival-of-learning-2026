@@ -20,6 +20,6 @@ export const venueInfo: VenueInfo = {
     title: "Where",
     venue: "COEX",
     location: "Seoul, Korea",
-    image: "/festival-of-learning-2026/images/venue/coex.jpg"
+    image: "/images/venue/coex.jpg"
   }
 }; 
