@@ -15,10 +15,10 @@ export default function Contact() {
                 General Inquiries
               </h2>
             </div>
-            <p className={styles.subtitle}>
+            <p className={styles.subtitle} style={{ textAlign: 'left' }}>
               For any questions about the Festival of Learning 2026, please contact:
             </p>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'flex-start' }}>
               <a 
                 href="mailto:juhokim@kaist.ac.kr"
                 className={styles.link}
