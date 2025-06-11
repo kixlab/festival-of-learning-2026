@@ -15,9 +15,9 @@ export default function Home() {
         {/* Hero Section */}
         <section className={styles.hero}>
           <div className={styles.heroContent}>
-            <h1 className={styles.title}>Festival of Learning 2026</h1>
-            <p className={styles.location}>Seoul, Korea</p>
-            <p className={styles.date}>June 29 - July 3, 2026</p>
+            <h1 className={styles.heroTitle}>Festival of Learning 2026</h1>
+            <p className={styles.heroLocation}>Seoul, Korea</p>
+            <p className={styles.heroDate}>June 29 - July 3, 2026</p>
           </div>
           <div className={styles.heroBackground}>
             <Image
