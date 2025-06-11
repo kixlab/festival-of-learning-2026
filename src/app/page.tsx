@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import { conferences } from "@/data/conferences";
 import { organizationInfo } from "@/data/organization";
@@ -21,13 +20,10 @@ export default function Home() {
             <p className={styles.date}>June 29 - July 3, 2026</p>
           </div>
           <div className={styles.heroBackground}>
-            <Image
-              src="/images/seoul/seoul_4.jpg"
+            <img
+              src="/festival-of-learning-2026/images/seoul/seoul_4.jpg"
               alt="Seoul cityscape"
-              fill
-              priority
-              quality={75}
-              style={{ objectFit: 'cover' }}
+              className={styles.heroImage}
             />
           </div>
         </section>
@@ -87,11 +83,10 @@ export default function Home() {
                     borderRadius: '50%',
                     overflow: 'hidden'
                   }}>
-                    <Image
+                    <img
                       src={chair.image.src}
                       alt={chair.image.alt}
-                      fill
-                      style={{ objectFit: 'cover' }}
+                      className={styles.chairImage}
                     />
                   </div>
                   <h3 className={styles.cardTitle}>{chair.name}</h3>
