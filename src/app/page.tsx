@@ -91,9 +91,6 @@ export default function Home() {
                   </div>
                   <h3 className={styles.cardTitle}>{chair.name}</h3>
                   <p className={styles.cardText}>{chair.institution}</p>
-                  {'description' in chair && chair.description && (
-                    <p className={styles.cardText}>{chair.description}</p>
-                  )}
                 </div>
               ))}
             </div>
