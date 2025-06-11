@@ -56,12 +56,46 @@ export default function Home() {
         <section className={styles.infoSection}>
           <div className={styles.infoContainer}>
             <h2 className={styles.sectionTitle}>Participating Conferences</h2>
-            <div className={styles.infoGrid}>
+            <div className={styles.infoGrid} style={{ 
+              display: 'grid', 
+              gridTemplateColumns: 'repeat(4, 1fr)', 
+              gap: '1.5rem',
+              maxWidth: '1200px',
+              margin: '0 auto'
+            }}>
               {conferences.map((conference, index) => (
-                <div key={index} className={styles.infoCard}>
-                  <SchoolIcon style={{ fontSize: '2rem', color: 'var(--primary)', marginBottom: '1rem' }} />
-                  <h3 className={styles.cardTitle}>{conference.name}</h3>
-                  <p className={styles.highlight}>{conference.dates.conference}</p>
+                <div key={index} className={styles.infoCard} style={{
+                  padding: '1.5rem',
+                  height: '100%',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  textAlign: 'center',
+                  transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                  cursor: 'pointer'
+                }}>
+                  <div style={{ 
+                    backgroundColor: 'var(--primary-light)', 
+                    padding: '1rem',
+                    borderRadius: '50%',
+                    marginBottom: '1rem'
+                  }}>
+                    <SchoolIcon style={{ fontSize: '2rem', color: 'white' }} />
+                  </div>
+                  <h3 className={styles.cardTitle} style={{ 
+                    fontSize: '1.25rem',
+                    marginBottom: '0.75rem',
+                    color: 'var(--primary)',
+                    lineHeight: '1.4'
+                  }}>
+                    {conference.name}
+                  </h3>
+                  <p className={styles.highlight} style={{
+                    fontSize: '1rem',
+                    color: 'var(--text-secondary)'
+                  }}>
+                    {conference.dates.conference}
+                  </p>
                 </div>
               ))}
             </div>

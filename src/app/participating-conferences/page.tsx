@@ -11,7 +11,7 @@ export default function ParticipatingConferences() {
       <div className={styles.container}>
         <h1 className={styles.title}>Participating Conferences</h1>
         <p className={styles.subtitle} style={{ textAlign: 'center', marginBottom: '3rem' }}>
-          Join us for four premier conferences in educational technology and learning sciences
+         
         </p>
 
         <section className={styles.section}>
