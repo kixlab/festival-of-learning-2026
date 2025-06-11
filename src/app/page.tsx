@@ -16,15 +16,19 @@ export default function Home() {
         {/* Hero Section */}
         <section className={styles.hero}>
           <div className={styles.heroContent}>
-            <h1 className={styles.title} style={{ fontSize: '4rem', marginBottom: '1rem' }}>
-              Festival of Learning 2026
-            </h1>
-            <p className={styles.location} style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>
-              Seoul, Korea
-            </p>
-            <p className={styles.date} style={{ fontSize: '2rem', marginBottom: '2rem' }}>
-              June 29 - July 3, 2026
-            </p>
+            <h1 className={styles.title}>Festival of Learning 2026</h1>
+            <p className={styles.location}>Seoul, Korea</p>
+            <p className={styles.date}>June 29 - July 3, 2026</p>
+          </div>
+          <div className={styles.heroBackground}>
+            <Image
+              src="/images/seoul/seoul_4.jpg"
+              alt="Seoul cityscape"
+              fill
+              priority
+              quality={75}
+              style={{ objectFit: 'cover' }}
+            />
           </div>
         </section>
 
