@@ -77,7 +77,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   border: 1px solid var(--border);
   transition: all 0.3s ease;
-  text-align: center;
+  text-align: left;
 }
 
 .card:hover, .infoCard:hover, .memberCard:hover {
@@ -187,6 +187,7 @@
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: var(--primary);
+  text-align: left;
 }
 
 .memberRole {
@@ -194,12 +195,14 @@
   color: var(--secondary);
   margin-bottom: 0.5rem;
   font-weight: 500;
+  text-align: left;
 }
 
 .memberInstitution {
   font-size: 0.9rem;
   color: var(--text-secondary);
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .memberDescription {
@@ -441,4 +444,23 @@
   height: auto;
   border-radius: 0.5rem;
   margin: 1rem 0;
+}
+
+.infoCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.infoCard:hover {
+  transform: translateY(-5px);
+}
+
+.cardText {
+  color: var(--text-light);
+  line-height: 1.6;
+  text-align: left;
 } 
