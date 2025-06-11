@@ -1,13 +1,15 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import { organizationInfo } from "@/data/organization";
+import styles from '../styles/shared.module.css';
+import { organizationInfo } from '@/data/organization';
+import Image from 'next/image';
 
 export default function Organization() {
   return (
-    <div className={styles.container}>
-      <div className={styles.content}>
-        <h1 className={styles.title}>{organizationInfo.title}</h1>
-        <p className={styles.description}>{organizationInfo.description}</p>
+    <div className={styles.pageContainer}>
+      <div className={styles.container}>
+        <h1 className={styles.title}>Organization</h1>
+        <p className={styles.subtitle}>
+          Meet the dedicated team behind the Festival of Learning 2026
+        </p>
 
         {organizationInfo.sections.map((section, index) => (
           <section key={index} className={styles.section}>
@@ -19,15 +21,14 @@ export default function Organization() {
                     <Image
                       src={member.image.src}
                       alt={member.image.alt}
-                      width={member.image.width}
-                      height={member.image.height}
-                      className={styles.memberImage}
+                      fill
+                      style={{ objectFit: 'cover' }}
                     />
                   </div>
                   <h3 className={styles.memberName}>{member.name}</h3>
                   <p className={styles.memberRole}>{member.role}</p>
                   <p className={styles.memberInstitution}>{member.institution}</p>
-                 </div>
+                </div>
               ))}
             </div>
           </section>
