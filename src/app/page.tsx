@@ -52,8 +52,8 @@ export default function Home() {
                 listStyle: 'none',
                 padding: 0,
                 textAlign: 'left',
-                maxWidth: '600px',
-                margin: '0 auto 1.5rem'
+                maxWidth: '800px',
+                margin: '0 auto 1rem'
               }}>
                 <li style={{
                   marginBottom: '1rem',
