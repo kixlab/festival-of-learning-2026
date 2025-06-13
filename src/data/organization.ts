@@ -78,7 +78,7 @@ export const organizationInfo = {
           role: "SC Chair",
           institution: "",
           image: {
-            src: "images/team/placeholder.jpg",
+            src: "images/team/rene_kizilcec.jpg",
             alt: "Rene Kizilcec",
             width: 400,
             height: 400
@@ -89,7 +89,7 @@ export const organizationInfo = {
           role: "Representative for EDM",
           institution: "",
           image: {
-            src: "images/team/placeholder.jpg",
+            src: "images/team/tiffany_barnes.jpg",
             alt: "Tiffany Barnes",
             width: 400,
             height: 400
@@ -100,7 +100,7 @@ export const organizationInfo = {
           role: "Representative for L@S",
           institution: "",
           image: {
-            src: "images/team/placeholder.jpg",
+            src: "images/team/xavier_ochoa.jpg",
             alt: "Xavier Ochoa",
             width: 400,
             height: 400
@@ -111,7 +111,7 @@ export const organizationInfo = {
           role: "Representative for AIED",
           institution: "",
           image: {
-            src: "images/team/placeholder.jpg",
+            src: "images/team/seiji_isotani.png",
             alt: "Seiji Isotani",
             width: 400,
             height: 400
@@ -122,7 +122,7 @@ export const organizationInfo = {
           role: "Representative for ISLS",
           institution: "",
           image: {
-            src: "images/team/placeholder.jpg",
+            src: "images/team/dmitra_tsovaltzi.jpg",
             alt: "Dimitra Tsovaltzi",
             width: 400,
             height: 400
@@ -133,18 +133,18 @@ export const organizationInfo = {
           role: "Representative for ACM",
           institution: "",
           image: {
-            src: "images/team/placeholder.jpg",
+            src: "images/team/yan_timanovsky.jpg",
             alt: "Yan Timanovsky",
             width: 400,
             height: 400
           }
         },
         {
-          name: "Blaženka Divjak",
+          name: "Blazenka Divjak",
           role: "Representative for LAK",
           institution: "",
           image: {
-            src: "images/team/placeholder.jpg",
+            src: "images/team/blazenka_divjak.jpg",
             alt: "Blazenka Divjak",
             width: 400,
             height: 400
