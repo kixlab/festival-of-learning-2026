@@ -5,8 +5,8 @@ const nextConfig = {
     unoptimized: true,
     remotePatterns: [],
   },
-  basePath: '',
-  assetPrefix: '',
+  basePath: '/festival-of-learning-2026',
+  assetPrefix: '/festival-of-learning-2026',
 };
 
 module.exports = nextConfig; 
