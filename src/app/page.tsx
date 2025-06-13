@@ -35,9 +35,9 @@ export default function Home() {
         <section className={styles.infoSection}>
           <div className={styles.infoContainer}>
             <div style={{
-              maxWidth: '800px',
+              maxWidth: '1000px',
               margin: '0 auto',
-              textAlign: 'center',
+              textAlign: 'left',
               padding: '2rem 1rem'
             }}>
               <p style={{

@@ -129,17 +129,6 @@ export const organizationInfo = {
           }
         },
         {
-          name: "Yan Timanovsky",
-          role: "Representative for ACM",
-          institution: "",
-          image: {
-            src: "images/team/yan_timanovsky.jpg",
-            alt: "Yan Timanovsky",
-            width: 400,
-            height: 400
-          }
-        },
-        {
           name: "Blazenka Divjak",
           role: "Representative for LAK",
           institution: "",
@@ -149,8 +138,18 @@ export const organizationInfo = {
             width: 400,
             height: 400
           }
-        }
-      ]
+        },
+        {
+          name: "Yan Timanovsky",
+          role: "Representative for ACM",
+          institution: "",
+          image: {
+            src: "images/team/yan_timanovsky.jpg",
+            alt: "Yan Timanovsky",
+            width: 400,
+            height: 400
+          }
+        },      ]
     },
     {
       title: "Student Assistants",
