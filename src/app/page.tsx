@@ -179,8 +179,8 @@ export default function Home() {
                       style={{ objectFit: 'cover' }}
                     />
                   </div>
-                  <h3 className={styles.cardTitle}>{chair.name}</h3>
-                  <p className={styles.cardText}>{chair.institution}</p>
+                  <h3 className={styles.cardTitle} style={{ textAlign: 'center' }}>{chair.name}</h3>
+                  <p className={styles.cardText} style={{ textAlign: 'center' }}>{chair.institution}</p>
                 </div>
               ))}
             </div>

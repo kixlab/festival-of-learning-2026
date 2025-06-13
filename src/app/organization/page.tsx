@@ -31,9 +31,9 @@ export default function Organization() {
                       className={styles.memberImage}
                     />
                   </div>
-                  <h3 className={styles.memberName}>{member.name}</h3>
-                  <p className={styles.memberRole}>{member.role}</p>
-                  <p className={styles.memberInstitution}>{member.institution}</p>
+                  <h3 className={styles.memberName} style={{ textAlign: 'center' }}>{member.name}</h3>
+                  <p className={styles.memberRole} style={{ textAlign: 'center' }}>{member.role}</p>
+                  <p className={styles.memberInstitution} style={{ textAlign: 'center' }}>{member.institution}</p>
                 </div>
               ))}
             </div>
