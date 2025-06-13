@@ -31,6 +31,63 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Festival Description Section */}
+        <section className={styles.infoSection}>
+          <div className={styles.infoContainer}>
+            <div style={{
+              maxWidth: '800px',
+              margin: '0 auto',
+              textAlign: 'center',
+              padding: '2rem 1rem'
+            }}>
+              <p style={{
+                fontSize: '1.2rem',
+                lineHeight: '1.8',
+                color: 'var(--text-primary)',
+                marginBottom: '1.5rem'
+              }}>
+                The Festival of Learning 2026 brings together academic communities in AI, Education, Learning Sciences, and Human-Computer Interaction. By co-locating their individual conferences, our mission is to create a unique, shared space where researchers and practitioners can:
+              </p>
+              <ul style={{
+                listStyle: 'none',
+                padding: 0,
+                textAlign: 'left',
+                maxWidth: '600px',
+                margin: '0 auto 1.5rem'
+              }}>
+                <li style={{
+                  marginBottom: '1rem',
+                  paddingLeft: '1.5rem',
+                  position: 'relative',
+                  fontSize: '1.1rem',
+                  lineHeight: '1.6'
+                }}>• Share cutting-edge research and define best practices.</li>
+                <li style={{
+                  marginBottom: '1rem',
+                  paddingLeft: '1.5rem',
+                  position: 'relative',
+                  fontSize: '1.1rem',
+                  lineHeight: '1.6'
+                }}>• Spark new, cross-disciplinary collaborations.</li>
+                <li style={{
+                  marginBottom: '1rem',
+                  paddingLeft: '1.5rem',
+                  position: 'relative',
+                  fontSize: '1.1rem',
+                  lineHeight: '1.6'
+                }}>• Collectively address the most pressing challenges and opportunities in the future of learning.</li>
+              </ul>
+              <p style={{
+                fontSize: '1.2rem',
+                lineHeight: '1.8',
+                color: 'var(--text-primary)'
+              }}>
+                We are excited to host this festival in Seoul, Korea, a perfect backdrop of high-tech innovation and educational leadership for this unique gathering.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Venue and Date Section */}
         <section className={styles.infoSection}>
           <div className={styles.infoContainer}>

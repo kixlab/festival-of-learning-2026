@@ -46,7 +46,7 @@ export const organizationInfo = {
       title: "General Chairs",
       members: [
         {
-          name: "Prof. Juho Kim",
+          name: "Juho Kim",
           role: "General Co-Chair",
           institution: "KAIST",
           description: "Professor Juho Kim is an expert in human-computer interaction and educational technology at KAIST.",
@@ -58,13 +58,94 @@ export const organizationInfo = {
           }
         },
         {
-          name: "Prof. Alice Oh",
+          name: "Alice Oh",
           role: "General Co-Chair",
           institution: "KAIST",
           description: "Professor Alice Oh is a leading researcher in educational technology and human-computer interaction at KAIST.",
           image: {
             src: "images/team/alice_oh.jpg",
             alt: "Professor Alice Oh",
+            width: 400,
+            height: 400
+          }
+        }
+      ]
+    }, {
+      title: 'Steering Committee',
+      members: [
+        {
+          name: "Rene Kizilcec",
+          role: "SC Chair",
+          institution: "",
+          image: {
+            src: "images/team/placeholder.jpg",
+            alt: "Rene Kizilcec",
+            width: 400,
+            height: 400
+          }
+        },
+        {
+          name: "Tiffany Barnes",
+          role: "Representative for EDM",
+          institution: "",
+          image: {
+            src: "images/team/placeholder.jpg",
+            alt: "Tiffany Barnes",
+            width: 400,
+            height: 400
+          }
+        },
+        {
+          name: "Xavier Ochoa",
+          role: "Representative for L@S",
+          institution: "",
+          image: {
+            src: "images/team/placeholder.jpg",
+            alt: "Xavier Ochoa",
+            width: 400,
+            height: 400
+          }
+        },
+        {
+          name: "Seiji Isotani",
+          role: "Representative for AIED",
+          institution: "",
+          image: {
+            src: "images/team/placeholder.jpg",
+            alt: "Seiji Isotani",
+            width: 400,
+            height: 400
+          }
+        },
+        {
+          name: "Dimitra Tsovaltzi",
+          role: "Representative for ISLS",
+          institution: "",
+          image: {
+            src: "images/team/placeholder.jpg",
+            alt: "Dimitra Tsovaltzi",
+            width: 400,
+            height: 400
+          }
+        },
+        {
+          name: "Yan Timanovsky",
+          role: "Representative for ACM",
+          institution: "",
+          image: {
+            src: "images/team/placeholder.jpg",
+            alt: "Yan Timanovsky",
+            width: 400,
+            height: 400
+          }
+        },
+        {
+          name: "Blaženka Divjak",
+          role: "Representative for LAK",
+          institution: "",
+          image: {
+            src: "images/team/placeholder.jpg",
+            alt: "Blazenka Divjak",
             width: 400,
             height: 400
           }
